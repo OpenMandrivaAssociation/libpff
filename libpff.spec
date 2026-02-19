@@ -12,6 +12,7 @@ URL:		https://github.com/libyal/libpff
 License:	LGPL-3.0
 Group:		System/Libraries
 BuildRequires:	autoconf automake slibtool
+BuildRequires:	pkgconfig(zlib)
 # Can't go the declarative route yet because
 # libpff doesn't support out-
 BuildSystem:	autotools
